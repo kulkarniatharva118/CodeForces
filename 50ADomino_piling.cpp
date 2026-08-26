@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int m,n=0;
+    int m=0,n=0;
     int ans=0;
     cin>>m>>n;
     int area=m*n;
