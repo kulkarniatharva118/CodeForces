@@ -11,8 +11,8 @@ int main() {
     string s1;
     string s2;
     int ans=0;
-    getline(std::cin >> std::ws, s1);
-    getline(std::cin >> std::ws, s2);
+    getline(cin >> ws, s1);
+    getline(cin >> ws, s2);
     int min_len=min(s1.size(),s2.size());
     for(int i=0;i<min_len;i++){
         
